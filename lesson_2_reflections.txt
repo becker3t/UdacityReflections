@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+    It creates a git repo locally on your computer.  This can be pointed to an online repository on github in order to save things to the cloud.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+    The staging area acts as a middle man between the local directory and the online repository.  This allows us to have control over what
+    files to push to the repository rather than automatically updating every file that gets modified in real time.

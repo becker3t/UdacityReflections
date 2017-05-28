@@ -1,0 +1,70 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I have windows so I used FC.  When I used it at first it took me a bit to sift through all of the changes it was comparing but eventually
+    I was able to find the obvious typo bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    A few ways.
+    You can debug an app using file compare.  You can revert a project back to a previous state if it's broken beyond repair.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: more control on when changes are saved (Google docs does it immediately,
+          but that won't be very practical with coding because you typically won't
+	  want to push your files until the work is finished and working.
+
+    Cons: changes have to be saved manually, vs. Google Docs which save your changes instantly
+	  More difficult to modify the same files from multiple sources in git than in Google Docs
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    In software developing there are many situations where one feature or task that needs to be done will require modification
+    of multiple files at a time.  You would want to push all of the files just once, rather than one at t ime (it's more efficient).
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log presents a list of all previous commits.  If your code is broken, use git log  to see the commit details of what files were changed and where.
+    From there, use git diff to compare the current branch to the commit that you think may have broken the code.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can make as many changes as you want to your computer locally without modifying the github master.
+    If you break it beyond your confidence to repair it, you can discard your changes and revcert your program to a state before you broke it.
+    If you accidentally push broken code, git allows you to revert the master branch to a previous state that you're confident is not broken.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Professionally.  This is for a training course.  I want to be an Android developer.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    Having confidence with VCS like git will allow somebody to perform certain tasks in a more efficient maner,
+    but also allow them to perform them in a more organized maner.  For example, instead of creating older versions of a text file
+    and saving each iteration locally on your computer, you can put it on version control, only have one copy of the file (rather
+    than several), and be able to see the history of every revision the file has undergone.
+
+    It could also give a programmer more confidence to try something new that they're not sure if it will work or not.
+    If it doesn't, it's very easy to revert all of the changes back.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others,
+like Google Docs, treat each file separately?
+    Git is designed more for code files, which one minor change could often involve changes to multiple files. Google Docs is more designed for
+    text documents which typically don't depend on multiple file modifications at once.
+
+How can you use the commands git log and git diff to view the history of files?
+    git log shows a list of previous commits with some small details and an id for each commit.
+    git diff id1 id2 compares two commits with id1 and id2.  It displays any lines that were added or removed from commit id1 to commit id2
+
+How might using version control make you more confident to make changes that could break something?
+    Knowing that you can easily revert your code back to a previoius working state gives me the confidence to make any modifications I want.
+    If you break your code beyond repair, you can checkout the previous commits to try finding the bug, or revert it backward all together.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+    Professionally.  I want to modify my bash_profile a bit more.

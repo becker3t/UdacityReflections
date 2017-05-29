@@ -13,3 +13,6 @@ What are some situations when branches would be helpful in keeping your history 
     Whenever there are any major changes or features to be added that involve major modification of the code, branches allow
     us to further organize thos major changes.
 
+How do the diagrams help you visualize the branch structure?
+    Branches are a linear connection from commit to commit.  Commits from one branch can't be seen from another.  The diagrams show those linear
+    connections and any connections from head to root can be seen on that branch, but not from other branches.

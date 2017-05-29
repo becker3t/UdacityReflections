@@ -2,3 +2,7 @@ When would you want to keep a remote repository rather than keeping it local?
     Saving things on the cloud is always safer than just holding everything locally on one computer. Just in case your computer gets
     bricked, your work is backed up online.  It also makes it easier to collaborate on the same project with multiple people on multiple
     devices.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+    There is always a chance that pulling changes may disrupt your own workflow that you have on your computer.  Pulling changes manually
+    gives you more control over situations like that.
